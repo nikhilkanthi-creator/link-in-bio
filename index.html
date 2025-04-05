@@ -11,6 +11,8 @@
         display: flex;
         justify-content: center;
         flex-direction: column;
+        max-width: 640px;
+        margin: auto;
       }
       .child {
         width: 500px;
@@ -21,8 +23,8 @@
       body {
         padding-top: 40px;
         padding-bottom: 40px;
+        background: conic-gradient(from 90deg at 50% 50%, #003f5b, #2b4b7d, #5f5195, #98509d, #cc4c91, #f25375, #ff6f4e, #ff9913);
       }
-
       .avatar-image{
         width: 128px;
         height: 128px;
@@ -44,15 +46,15 @@
         <div class="child">social-cons-row</div>
         <div class="child">links-row
           <div class="item">
-          <img src="/linkedin pic.jpeg" alt="Nikhil LinkedIn">
+          <img class="avatar-image" src="/linkedin pic.jpeg" alt="Nikhil LinkedIn">
           <a target="_blank" href="https://www.linkedin.com/in/nikhilkanthi/">LinkedIn</a>
           </div>
           <div class="item">
-          <img src="/medium pic.avif" alt="Nikhil Medium">
+          <img class="avatar-image" src="/medium pic.avif" alt="Nikhil Medium">
           <a target="_blank" href="https://medium.com/@nikhilkanthi">Medium (blog)</a>
           </div>
           <div class="item">
-            <img src="/Instagram Prof Pic.jpg" alt="Nikhil Photography Insta">
+            <img class="avatar-image" src="/Instagram Prof Pic.jpg" alt="Nikhil Photography Insta">
             <a href="https://www.instagram.com/nikhilandcamera/">Instagram</a>
             </div>
         </div> <!--links row div class-->
