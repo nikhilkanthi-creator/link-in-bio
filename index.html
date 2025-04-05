@@ -31,15 +31,23 @@
         padding-bottom: 40px;
         background: radial-gradient(circle at 20% 0%, #ff8b17, #e6751f, #cc6021, #b24d22, #963b1f, #7b2b1c, #601d16, #45100e);
         color: rgba(255, 255, 255, 1.0);
+        font-family: "Georgia";
+        font-size: 17px;
+        font-weight: 700;
       }
       a {
         color: rgba(255, 255, 255, 1.0);
+        text-decoration: none;
       }
       .avatar-image{
         width: 128px;
         height: 128px;
         object-fit: cover;
         border-radius: 128px;
+      }
+      .link-text{
+        text-align:center;
+        flex-grow: 1;
       }
     </style>
   </head>
@@ -52,18 +60,18 @@
         <div class="child">
           Nikhil Kanthi <!--Name row-->
         </div>
-        <div class="child">links-row
+        <div class="child">Links to my content
           <div class="item">
           <img class="avatar-image" src="/linkedin pic.jpeg" alt="Nikhil LinkedIn">
-          <a target="_blank" href="https://www.linkedin.com/in/nikhilkanthi/">LinkedIn</a>
+          <a class="link-text" target="_blank" href="https://www.linkedin.com/in/nikhilkanthi/">Career (LinkedIn)</a>
           </div>
           <div class="item">
           <img class="avatar-image" src="/medium pic.avif" alt="Nikhil Medium">
-          <a target="_blank" href="https://medium.com/@nikhilkanthi">Medium (blog)</a>
+          <a class="link-text" target="_blank" href="https://medium.com/@nikhilkanthi">Blog (Medium)</a>
           </div>
           <div class="item">
             <img class="avatar-image" src="/Instagram Prof Pic.jpg" alt="Nikhil Photography Insta">
-            <a href="https://www.instagram.com/nikhilandcamera/">Instagram</a>
+            <a class="link-text" href="https://www.instagram.com/nikhilandcamera/">Photography (Instagram)</a>
             </div>
         </div> <!--links row div class-->
       </div> <!-- main-container's div class-->
